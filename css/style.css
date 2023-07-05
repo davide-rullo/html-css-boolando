@@ -28,7 +28,19 @@ header{
     background-color: var(--bnd-primary);
     color: white;
     margin-bottom: 2rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+  
 }
+
+main{
+    margin-top: 7rem;
+}
+
+
 
 
 .debug .shop{
@@ -194,4 +206,8 @@ footer a{
 
 footer i{
     padding-right: .2rem;
+}
+
+.py-3{
+padding: 3px;
 }
