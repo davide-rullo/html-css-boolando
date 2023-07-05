@@ -73,15 +73,17 @@ header{
 }
 
 .shop{
-    height: 400px;
+    height: 500px;
 }
 .col{
     width: 100%;
+    
 }
 .card{
     width: 100%;
     margin: 5px;
     position: relative;
+    min-height: 400px;
 }
 
 .card img{
@@ -112,7 +114,7 @@ header{
     align-items: center;
     font-size: 15px;
     color: white;
-    bottom: 40px;
+    bottom: 120px;
 }
 
 .discount{
@@ -131,4 +133,17 @@ header{
 
 .description{
     text-align: left;
+}
+
+.price, .underlined{
+    display: inline-block;
+}
+
+.price{
+    color: var(--bnd-discount);
+}
+
+.underlined{
+    text-decoration: line-through;
+    
 }
