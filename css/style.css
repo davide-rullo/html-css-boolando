@@ -211,3 +211,7 @@ footer i{
 .py-3{
 padding: 3px;
 }
+
+.like:hover{
+    color: red;
+}
