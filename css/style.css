@@ -169,3 +169,29 @@ header{
 .card:hover{
     cursor: pointer;
 }
+
+footer{
+    background-color: var(--bdn-dark);
+    height: 100px;
+    color: white;
+}
+
+.last{
+    padding-top: 2rem;
+    justify-content: space-between;
+    
+}
+
+footer h4, h5{
+    padding-bottom: .6rem;
+}
+
+footer a{
+    font-size: 12px;
+    padding-right: 1rem;
+
+}
+
+footer i{
+    padding-right: .2rem;
+}
