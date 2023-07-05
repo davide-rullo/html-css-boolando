@@ -153,3 +153,19 @@ header{
 #left{
     left: 0;
 }
+
+.second{
+    display: none;
+}
+
+.card:hover .first{
+    display: none;
+}
+
+.card:hover .second{
+    display: block;
+}
+
+.card:hover{
+    cursor: pointer;
+}
