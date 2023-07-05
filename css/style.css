@@ -13,6 +13,10 @@ body{
     font-family: helvetica;
 }
 
+p{
+    font-size: 12px;
+}
+
 :root{
     --bnd-primary: #ff6900;
     --bnd-discount: #ff0000;
@@ -97,8 +101,34 @@ header{
     font-size: 26px;
     padding-left: 10px;
     position: absolute;
-    left: 88%;
-    bottom: 88%;
+    right: 0;
+    top: 10px;
 }
 
-.discount{}
+.discount, .sustainability{
+    height: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    bottom: 40px;
+}
+
+.discount{
+    background-color: var(--bnd-discount);
+    width: 40px;
+    left: 0;
+    color: white;
+}
+
+.sustainability{
+    background-color: var(--bnd-sustainability);
+    width: auto;
+    padding: 3px;
+    left: 45px;
+}
+
+.description{
+    text-align: left;
+}
