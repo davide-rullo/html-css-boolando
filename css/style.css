@@ -74,6 +74,8 @@ header{
 
 .shop{
     height: 500px;
+    margin-bottom: 9rem;
+   
 }
 .col{
     width: 100%;
@@ -146,4 +148,8 @@ header{
 .underlined{
     text-decoration: line-through;
     
+}
+
+#left{
+    left: 0;
 }
