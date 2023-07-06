@@ -172,6 +172,10 @@ main{
     left: 0;
 }
 
+.first{
+    display: block;
+}
+
 .second{
     display: none;
 }
