@@ -1,3 +1,5 @@
+/* Common */
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,28 @@ p{
     --bdn-dark: #1a1a1a;
 }
 
+
+/* End Region Common */
+
+
+/* Utilities */
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.py-3{
+    padding: 3px;
+    }
+
+/* End Region Utilities*/
+
 header{
     background-color: var(--bnd-primary);
     color: white;
@@ -42,28 +66,13 @@ main{
 
 
 
-
-.debug .shop{
-    height: 500px;
-   
-}
-
-
-
-.d-flex{
-    display: flex;
-}
 .container {
     max-width: 1170px;
     width: 80%;
     margin: auto;
 }
 
-.align-center{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 .type, .account{
     width: 20%;
@@ -104,9 +113,6 @@ main{
     width: 100%;
 }
 
-.elements{
- 
-}
 
 .like{
     background-color: white;
@@ -208,9 +214,7 @@ footer i{
     padding-right: .2rem;
 }
 
-.py-3{
-padding: 3px;
-}
+
 
 .like:hover{
     color: red;
